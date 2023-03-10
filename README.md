@@ -1,3 +1,31 @@
+# DEVELOPMENT
+
+## Install dep
+
+```
+git clone git@github.com.....
+cd script-template
+yarn install
+```
+
+## Prepare environment config
+
+```
+cp .env.example .env
+
+# Update .env content
+# Setup other secret configs as well
+```
+
+## Start application
+
+```
+yarn start
+```
+
+
+# DEPLOYMENT
+
 ## Timezone
 
 ```
@@ -30,23 +58,6 @@ ssh-keygen -t rsa
 cat ~/.ssh/id_rsa.pub
 
 COPY public content and register to git provider to allow clone repo with ssh
-```
-
-## Install dep
-
-```
-git clone git@github.com.....
-cd script-template
-yarn install
-```
-
-## Prepare environment config
-
-```
-cp .env.example .env
-
-# Update .env content
-# Setup other secret configs as well
 ```
 
 ## [Deprecated] Start with tmux
