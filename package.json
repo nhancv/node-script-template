@@ -25,7 +25,6 @@
   "author": "Nhan Cao <me@nhancv.com> (https://nhancv.github.io)",
   "license": "MIT",
   "dependencies": {
-    "cli-progress": "^3.11.2",
     "dotenv": "^16.0.3"
   },
   "devDependencies": {
