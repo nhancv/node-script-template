@@ -82,7 +82,7 @@ COPY public content and register to git provider to allow clone repo with ssh
 
 ```
 # Start App
-pm2 --name thescript start src/index.js
+pm2 --name thescript start src/index.js --log-date-format="YYYY-MM-DD HH:mm:ss"
 ```
 
 ## Monitor
